@@ -1,0 +1,9 @@
+numbers = input("Enter numbers separated by spaces: ")
+
+lst = numbers.split()
+
+lst = [int(num) for num in lst]
+
+total = sum(lst)
+
+print("The total of the number's are: ", total)
